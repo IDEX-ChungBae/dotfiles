@@ -1,0 +1,143 @@
+{   "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}${separator}💀",
+    "editor.lineNumbers": "relative",
+    "workbench.colorTheme": "Monokai Dark Soda",
+    "tailwind-fold.autoFold": false,
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "0xProto Nerd Font",
+    "editor.renderWhitespace": "none",
+    "editor.stickyScroll.enabled": false,
+    "editor.renderControlCharacters": false,
+    "explorer.confirmDragAndDrop": false,
+    "git.confirmSync": false,
+    "mssql.connections": [
+        {
+            "server": "rocssql1",
+            "database": "coe-production",
+            "authenticationType": "Integrated",
+            "profileName": "CMES",
+            "encrypt": "Mandatory",
+            "trustServerCertificate": true,
+            "user": "",
+            "password": "",
+            "connectTimeout": 15,
+            "commandTimeout": 30,
+            "applicationName": "vscode-mssql"
+        }
+    ],
+    "excalidraw.theme": "dark",
+    "editor.minimap.renderCharacters": false,
+    "explorer.confirmDelete": false,
+    "security.allowedUNCHosts": [
+        "rocsweb01"
+    ],
+    "security.restrictUNCAccess": false,
+    "jupyter.askForKernelRestart": false,
+    "activeDocumentIndicator.opacity": 25,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.minimap.showSlider": "mouseover",
+    "git.enableSmartCommit": true,
+    "terminal.integrated.fontFamily": "'0xProto Nerd Font', monospace",
+    "terminal.integrated.fontSize": 16,
+    "html.format.indentHandlebars": true,
+    "html.format.indentInnerHtml": true,
+    "[html]":{
+        "editor.tabSize": 2
+    },
+    "[djangohtml]":{
+        "editor.tabSize": 2
+    },
+    "window.commandCenter": false,
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.bracketPairsHorizontal": true,
+    "editor.cursorStyle": "block",
+    "indentRainbow.colors": [
+        "rgba(3, 4, 94,0.15)",
+        "rgba(2, 62, 138,0.15)",
+        "rgba(0, 119, 182, 0.15)",
+        "rgba(0, 150, 199,0.15)",
+        "rgba(0, 180, 216,0.15)",
+        "rgba(72, 202, 228,0.15)",
+        "rgba(144, 224, 239,0.15)",
+        "rgba(144, 224, 239,0.1)",
+        "rgba(144, 224, 239,0.05)",
+        "rgba(144, 224, 239,0.025)"
+    ],
+    "interactiveWindow.executeWithShiftEnter": true,
+    "workbench.settings.applyToAllProfiles": [
+        "interactiveWindow.executeWithShiftEnter"
+    ],
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "terminal.integrated.commandsToSkipShell": [
+        "matlab.interrupt"
+    ],
+    "MATLAB.showFeatureNotAvailableError": false,
+    "github.copilot.advanced": {
+        
+
+        
+    },
+    "github.copilot.enable": {
+        "python": true,
+        "html": true,
+        "js": true
+    },
+    "mssql.enableRichExperiences": true,
+    "go.toolsManagement.autoUpdate": true,
+    "mssql.openQueryResultsInTabByDefault": true,
+    "mssql.openQueryResultsInTabByDefaultDoNotShowPrompt": true,
+    "vscode-neovim.neovimExecutablePaths.win32": "C:\\Users\\cbae\\AppData\\Roaming\\nvm\\nvm.exe",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "vim-status-bar.useMonokai": true,
+    "vscode_custom_css.imports": [
+        "file://c:\\Users\\cbae\\.vscode\\extensions\\jonatanbakucz.vim-status-bar-1.0.0\\monokai-vim-status-bar.css"
+    ],
+    // tab visual options
+    "window.density.editorTabHeight": "compact",
+        
+    // vim settings
+    "editor.cursorSurroundingLines": 10,
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.useCtrlKeys": true,
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.color":"#bbed5c",
+    "vim.highlightedyank.textColor":"#303030",
+    "vim.highlightedyank.duration": 200,
+    "editor.accessibilitySupport": "off",
+    "vim.visualModeKeyBindings":[
+        {
+            "before": [
+                ">",
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<",
+            ],
+            "commands":[
+                "editor.action.outdentLines"
+            ]
+        }
+    ],
+    "ruff.enable": false,
+    "python.analysis.languageServerMode": "light",
+    "python.analysis.enablePytestSupport": false,
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.userFileIndexingLimit": 100,
+    "python.analysis.exclude": [
+        "\"//*\""
+    ],
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#ff0000b3",
+        "editor.selectionHighlightBackground": "#e78ee288",
+        "editor.selectionHighlightBorder":"#ffffff"
+        },
+    // selection background update
+
+
+}
