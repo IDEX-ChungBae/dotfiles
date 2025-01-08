@@ -1,0 +1,89 @@
+--return {
+  -- {
+  --   "hrsh7th/nvim-cmp",
+  --   opts = function()
+      -- local default_config = require('lazyvim/plugins/coding')
+  --     local cmp = require("cmp")
+  --     local cmp_config = cmp.get_config()
+  --     local html_css_source = {
+  --       name = "html-css",
+  --       option = {
+  --         enable_on = { "html", "htmldjango" },
+  --         file_extensions = { "css", "sass", "less" },
+  --         style_sheets = {
+  --           "C:/Users/cbae/OneDrive - IDEX Corporation/Desktop/Project/gitea/COE-Production/static/material.css",
+  --         },
+  --       },
+  --     }
+  --     table.insert(cmp_config.sources, html_css_source)
+  --     --      require('cmp').sources = default_sources
+  --     --table.insert(cmp_config.formatting,)
+  --     cmp.setup(cmp_config)
+  --   end,
+  --
+  --   
+  --          "C:/Users/cbae/OneDrive - IDEX Corporation/Desktop/Project/gitea/COE-Production/static/material.css",
+  --   -- formatting = {
+  --   --   format = function(entry, vim_item)
+  --   --     if entry.source.name == "html-css" then sB
+  --   --       vim_item.menu = entry.completion_item.menu
+  --   --     end
+  --   --     return vim_item
+  --   --   end,
+  --   -- },
+  --   -- config = function(_, opts)
+  --   --   require("cmp").setup(opts) 
+  --   -- end,
+  -- },
+--
+--
+
+return {
+  -- {
+  --   "Jezda1337/nvim-html-css",
+  --   -- lazy = true,
+  --   -- event = "InsertEnter",
+  --   event = {"BufReadPost", "BufNewFile"},
+  --   enable = false,
+  --   filetypes = { "html", "htmldjango" },
+  --   dependencies = { -- without dependencies wont work
+  --     "nvim-treesitter/nvim-treesitter",
+  --     "nvim-lua/plenary.nvim",
+  --   },
+  --   config = function()
+  --     local cmp = require("cmp")
+  --     local cmp_config = cmp.get_config()
+  --     local html_css_source = {
+  --       name = "html-css",
+  --       option = {
+  --         enable_on = { "html", "htmldjango" },
+  --         file_extensions = { "css", "sass", "less" },
+  --         style_sheets = {
+  --           "C:/Users/cbae/OneDrive - IDEX Corporation/Desktop/Project/gitea/COE-Production/static/material.css",
+  --         },
+  --       },
+  --     }
+  --     -- local html_css_format = {
+  --     --   format_html_css = function(entry, vim_item)
+  --     --     if entry.source.name == "html-css" then
+  --     --       vim_item.menu = entry.completion_item.menu
+  --     --     end
+  --     --     return vim_item
+  --     --   end,
+  --     -- }
+  --     -- table.insert(cmp_config.formatting,html_css_format)
+  --     table.insert(cmp_config.sources,html_css_source)
+  --     cmp.setup(cmp_config)
+  --     --require('nvim-ts-autotag')
+  --     -- local auto_tag_config = auto_tag.get_config()
+  --     -- local django_source = {'htmldjango'}
+  --     -- table.insert(auto_tag_config.filetypes,django_source):
+  --     -- auto_tag.setup(auto_tag_config)
+  --     require("html-css"):setup()
+  --   end,
+  -- },
+  {
+    "alvan/vim-closetag",
+
+  }
+}
